@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class RandomString {
     public String createRandomString(){
-        int leftLimit = 97; // буква 'a'
-        int rightLimit = 122; // буква 'z'
+        int leftLimit = 97; // letter 'a'
+        int rightLimit = 122; // letter 'z'
         int targetStringLength = 10;
         Random random = new Random();
         StringBuilder buffer = new StringBuilder(targetStringLength);
